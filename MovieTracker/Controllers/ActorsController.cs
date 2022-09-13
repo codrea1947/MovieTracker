@@ -58,7 +58,6 @@ namespace MovieTracker.Controllers
 
         }
 
-
         [HttpPut("updateActor/{actorId}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ActorResponse))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
